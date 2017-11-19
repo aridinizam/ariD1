@@ -2,8 +2,8 @@
 #include <WiFiClient.h>
 #include <ESP8266WebServer.h>
  
-const char* ssid = "zaliha82@unifi";
-const char* password = "59790389";
+const char* ssid = "ssid";
+const char* password = "password";
  
 ESP8266WebServer server(80);
  
@@ -67,3 +67,5 @@ void handleNotFound(){
   String message = "File Not Found\n\n";
   server.send(404, "text/plain", message);
 }
+
+//hello yong
